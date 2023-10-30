@@ -1,0 +1,58 @@
+[SCANUNIT0]
+REF_LEFT_UP = 0
+;REF_LEFT_MIDDLE = 350
+REF_LEFT_MIDDLE = 400            <--- Demo (SR”½ŽË¶)
+REF_LEFT_DOWN = 0
+REF_RIGHT_UP = 0
+;REF_RIGHT_MIDDLE = 350
+REF_RIGHT_MIDDLE = 400           <--- Demo (SR”½ŽË‰E)
+REF_RIGHT_DOWN = 0
+;TRANS = 55
+TRANS = 40                       <--- Demo (SR“§‰ß)
+COAX = 0
+
+[SCANUNIT1]
+REF_LEFT_UP = 1500
+REF_LEFT_MIDDLE = 1500           <--- Demo (PI”½ŽË¶)
+REF_LEFT_DOWN = 1500
+REF_RIGHT_UP = 1500
+REF_RIGHT_MIDDLE = 1500          <--- Demo (PI”½ŽË‰E)
+REF_RIGHT_DOWN = 1500
+TRANS = 60                       <--- Demo (PI“§‰ß)
+COAX = 470                       <--- Demo (PI—ŽŽË)
+
+[SCANUNIT2]
+REF_LEFT_UP = 0
+REF_LEFT_MIDDLE = 0
+REF_LEFT_DOWN = 0
+REF_RIGHT_UP = 0
+REF_RIGHT_MIDDLE = 0
+REF_RIGHT_DOWN = 0
+TRANS = 0
+COAX = 1200                      <--- Demo (Chip—ŽŽË)
+[Condition2]
+LatestBackup=C:\KGK\ChipAVI\CPC\Master\DB7500-FD07SB\IP\..\TEMP\LightingValue_Backup_20120527_143318_775ini
+[LightingInfo_0]
+Value=400                        <--- —ÊŽY‹@ (SR”½ŽË¶)
+Enabled=1
+[LightingInfo_1]
+Value=400                        <--- —ÊŽY‹@ (SR”½ŽË‰E)
+Enabled=1
+[LightingInfo_2]
+Value=40                         <--- —ÊŽY‹@ (SR“§‰ß)
+Enabled=1
+[LightingInfo_3]
+Value=1500                       <--- —ÊŽY‹@ (PI”½ŽË¶)
+Enabled=1
+[LightingInfo_4]
+Value=1500                       <--- —ÊŽY‹@ (PI”½ŽË‰E)
+Enabled=1
+[LightingInfo_5]
+Value=60                         <--- —ÊŽY‹@ (PI“§‰ß)
+Enabled=1
+[LightingInfo_6]
+Value=470                        <--- —ÊŽY‹@ (PI—ŽŽË)
+Enabled=1
+[LightingInfo_7]
+Value=1200                       <--- —ÊŽY‹@ (Chip—ŽŽË)
+Enabled=1

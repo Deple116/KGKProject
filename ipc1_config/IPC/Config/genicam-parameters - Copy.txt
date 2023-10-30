@@ -1,0 +1,212 @@
+# --- GenICam parameter dump
+
+# DeviceVendorName="e2v"
+# DeviceModelName="ELIIXAC4CCP1605"
+# DeviceManufacturerInfo="EV71YC4CCP1605-BA0"
+# DeviceVersion="G"
+# DeviceFirmwareVersion="1.2.1"
+# DeviceSFNCVersionMajor=1
+# DeviceSFNCVersionMinor=5
+# DeviceSFNCVersionSubMinor=0
+# DeviceID="1451A6867"
+DeviceUserID="UserDefinedName"
+# ElectronicBoardID="107015C-1310245"
+# ElectronicBoardTestStatus="OK-3105468"
+DeviceTemperatureSelector=Mainboard
+# DeviceTemperature=47.75
+# DeviceScanType=Linescan
+Standby=Disable
+# SensorWidth=16384
+# SensorHeight=1
+# WidthMax=16384
+# HeightMax=1
+# Width=16384
+# Height=1
+# InputSource: genicam exception - Node is not readable. : AccessException thrown in node 'InputSource' while calling 'InputSource.GetIntValue()' (file 'EnumerationT.h', line 131)
+SensorMode=SensorModeFDES
+PixelFormat=RGB8
+# PixelCoding=RGBPacked
+# PixelSize=Bpp8
+# PixelColorFilter=None
+# PixelDynamicRangeMin=0
+# PixelDynamicRangeMax=255
+TestImageSelector=Off
+# AcquisitionMode=Continuous
+# AcquisitionStart=1
+# AcquisitionStop=1
+# LinePeriodMin=21
+LinePeriod=50
+# SynchroMode: genicam exception - Node is not readable. : AccessException thrown in node 'SynchroMode' while calling 'SynchroMode.GetIntValue()' (file 'EnumerationT.h', line 131)
+# ExposureTime: genicam exception - Node is not readable. : AccessException thrown in node 'ExposureTime' while calling 'ExposureTime.GetValue()' (file 'FloatT.h', line 289)
+ExposureMode=Off
+TriggerSelector=ExposureStart
+TriggerMode=Off
+TriggerSource=Software
+TriggerActivation=RisingEdge
+TriggerDelay=0
+TriggerRescalerSource=Bypassed
+TriggerRescalerMultiplier=1
+TriggerRescalerDivider=1
+TriggerRescalerGranularity=Nano20
+# TriggerRescalerCountIntReg=0
+# TriggerRescalerCountIntOverflowReg=0
+PreampGain=PreAmpx1
+Gain=0
+Offset=0
+DigitalGain=0
+DigitalGainTapSelector=1
+DigitalGainTap=0
+DigitalGainQuarterEnable=0
+WhiteBalanceEnable=0
+DigitalRed=0
+DigitalBlue=0
+DigitalGreenRed=0
+DigitalGreenBlue=0
+# BalanceWhiteAuto=1
+# BalanceWhiteAutoAbort=1
+# Standard=3232209637
+# VersionMajor=1
+# VersionMinor=0
+# XmlManifestSize=1
+XmlManifestSelector=0
+# XmlVersionMajor=1
+# XmlVersionMinor=2
+# XmlVersionSubMinor=0
+# XmlSchemaVersionMajor=1
+# XmlSchemaVersionMinor=1
+# XmlSchemaVersionSubMinor=0
+# XmlUrlAddress=24576
+# IidcPointer=0
+# DeviceLinkID=0
+MasterHostLinkID=501
+# ControlPacketDataSize=1024
+StreamPacketDataSize=4096
+NumberOfLink=Cxp_4links
+LinkSpeed=Cxp_6Gbps
+# DefaultNumberOfLink=Cxp_4links
+# DefaultLinkSpeed=Cxp_6Gbps
+TestMode=0
+TestErrorCountSelector=0
+TestErrorCount=0
+# TapGeometry=Cxp_1X_1Y
+# Image1StreamID=85
+# Image2StreamID=0
+# PayloadSize=49152
+TLParamsLocked=0
+# LineStatusAll=0
+LineSelector=Line0
+# LineMode=Input
+LineInverter=0
+LineDebouncerFilter=0
+# LineStatus=0
+LineFormat=TTL
+CounterSelector=Counter1
+CounterTriggerSource=Off
+CounterTriggerActivation=RisingEdge
+CounterEventSource=Off
+CounterEventActivation=RisingEdge
+CounterDuration=0
+CounterResetSource=Off
+CounterResetActivation=RisingEdge
+# CounterReset=1
+# CounterValue=0
+# CounterValueAtReset=0
+# CounterStatus=CounterIdle
+TimerSelector=Timer1
+TimerTriggerSource=Off
+TimerTriggerActivation=RisingEdge
+TimerDuration=0
+TimerDelay=0
+# TimerValue=0
+# TimerStatus=TimerIdle
+UserSetSelector=Default
+# UserSetLoad=1
+# UserSetSave=1
+# CurrentUserSet=Default
+FFCorrection=0
+# LineProfilAverageMeasurement=1
+# LineProfilAverageMeasurementAbort=1
+PixelAccessLineNumber=Line1
+PixelRoiStart=0
+PixelRoiWidth=16384
+# PixelRedRoiMean=0
+# PixelRedRoiStandardDeviation=0
+# PixelRedRoiMin=0
+# PixelRedRoiMax=0
+# PixelBlueRoiMean=0
+# PixelBlueRoiStandardDeviation=0
+# PixelBlueRoiMin=0
+# PixelBlueRoiMax=0
+# PixelGreenRRoiMean=0
+# PixelGreenRRoiStandardDeviation=0
+# PixelGreenRRoiMin=0
+# PixelGreenRRoiMax=0
+# PixelGreenBRoiMean=0
+# PixelGreenBRoiStandardDeviation=0
+# PixelGreenBRoiMin=0
+# PixelGreenBRoiMax=0
+# PixelValueSize=2
+# CameraPrivilegeLevel=IntegratorMode
+ChangePrivilegeLevel=1
+# ClampCompensation: genicam exception - Node is not readable. : AccessException thrown in node 'ClampCompensation' while calling 'ClampCompensation.GetIntValue()' (file 'EnumerationT.h', line 131)
+# GainAnalogTapSelector: genicam exception - Node is not readable. : AccessException thrown in node 'GainAnalogTapSelector' while calling 'GainAnalogTapSelector.GetValue()' (file 'IntegerT.h', line 148)
+# GainAnalogTap: genicam exception - Node is not readable. : AccessException thrown in node 'GainAnalogTap' while calling 'GainAnalogTap.GetValue()' (file 'IntegerT.h', line 148)
+# FactoryDigitalGainTapSelector: genicam exception - Node is not readable. : AccessException thrown in node 'FactoryDigitalGainTapSelector' while calling 'FactoryDigitalGainTapSelector.GetValue()' (file 'IntegerT.h', line 148)
+# FactoryDigitalGainTap: genicam exception - Node is not readable. : AccessException thrown in node 'FactoryDigitalGainTap' while calling 'FactoryDigitalGainTap.GetValue()' (file 'IntegerT.h', line 148)
+# BlackLevelAnalogTapSelector: genicam exception - Node is not readable. : AccessException thrown in node 'BlackLevelAnalogTapSelector' while calling 'BlackLevelAnalogTapSelector.GetValue()' (file 'IntegerT.h', line 148)
+# BlackLevelAnalogTap: genicam exception - Node is not readable. : AccessException thrown in node 'BlackLevelAnalogTap' while calling 'BlackLevelAnalogTap.GetValue()' (file 'IntegerT.h', line 148)
+# SaveFactoryConfig: genicam exception - Node is not implemented. : AccessException thrown in node 'SaveFactoryConfig' while calling 'SaveFactoryConfig.IsDone()' (file 'CommandT.h', line 118)
+# SensorResetLevel: genicam exception - Node is not readable. : AccessException thrown in node 'SensorResetLevel' while calling 'SensorResetLevel.GetValue()' (file 'IntegerT.h', line 148)
+# SensorAntiblooming4Ttiming: genicam exception - Node is not readable. : AccessException thrown in node 'SensorAntiblooming4Ttiming' while calling 'SensorAntiblooming4Ttiming.GetValue()' (file 'IntegerT.h', line 148)
+# SensorAntibloomingTDItiming: genicam exception - Node is not readable. : AccessException thrown in node 'SensorAntibloomingTDItiming' while calling 'SensorAntibloomingTDItiming.GetValue()' (file 'IntegerT.h', line 148)
+# SensorAntibloomingCurrentValue: genicam exception - Node is not readable. : AccessException thrown in node 'SensorAntibloomingCurrentValue' while calling 'SensorAntibloomingCurrentValue.GetValue()' (file 'IntegerT.h', line 148)
+# StartSelfDiag: genicam exception - Node is not implemented. : AccessException thrown in node 'StartSelfDiag' while calling 'StartSelfDiag.IsDone()' (file 'CommandT.h', line 118)
+# AbortSelfDiag: genicam exception - Node is not implemented. : AccessException thrown in node 'AbortSelfDiag' while calling 'AbortSelfDiag.IsDone()' (file 'CommandT.h', line 118)
+# SelfDiag: genicam exception - Node is not readable. : AccessException thrown in node 'SelfDiag' while calling 'SelfDiag.GetIntValue()' (file 'EnumerationT.h', line 131)
+# PowerSupplyStatusSelector: genicam exception - Node is not readable. : AccessException thrown in node 'PowerSupplyStatusSelector' while calling 'PowerSupplyStatusSelector.GetValue()' (file 'IntegerT.h', line 148)
+# PowerSupplyStatus: genicam exception - Node is not readable. : AccessException thrown in node 'PowerSupplyStatus' while calling 'PowerSupplyStatus.GetValue()' (file 'IntegerT.h', line 148)
+# UbootDataPartitionUpgrade: genicam exception - Node is not implemented. : AccessException thrown in node 'UbootDataPartitionUpgrade' while calling 'UbootDataPartitionUpgrade.IsDone()' (file 'CommandT.h', line 118)
+# FFCSensorEnable: genicam exception - Node is not readable. : AccessException thrown in node 'FFCSensorEnable' while calling 'FFCSensorEnable.GetIntValue()' (file 'EnumerationT.h', line 131)
+# ResetFPNSensor: genicam exception - Node is not implemented. : AccessException thrown in node 'ResetFPNSensor' while calling 'ResetFPNSensor.IsDone()' (file 'CommandT.h', line 118)
+# ResetFFCSensor: genicam exception - Node is not implemented. : AccessException thrown in node 'ResetFFCSensor' while calling 'ResetFFCSensor.IsDone()' (file 'CommandT.h', line 118)
+# FFCSensorSave: genicam exception - Node is not implemented. : AccessException thrown in node 'FFCSensorSave' while calling 'FFCSensorSave.IsDone()' (file 'CommandT.h', line 118)
+# STB_Gain: genicam exception - Node is not readable. : AccessException thrown in node 'STB_Gain' while calling 'STB_Gain.GetValue()' (file 'IntegerT.h', line 148)
+# STB_Th_prog1: genicam exception - Node is not readable. : AccessException thrown in node 'STB_Th_prog1' while calling 'STB_Th_prog1.GetValue()' (file 'IntegerT.h', line 148)
+# STB_Th_prog2: genicam exception - Node is not readable. : AccessException thrown in node 'STB_Th_prog2' while calling 'STB_Th_prog2.GetValue()' (file 'IntegerT.h', line 148)
+# EraseFactorySettings: genicam exception - Node is not implemented. : AccessException thrown in node 'EraseFactorySettings' while calling 'EraseFactorySettings.IsDone()' (file 'CommandT.h', line 118)
+# StatusErrorHardware=0
+# StatusWarningFfcOrBalanceUdf=0
+# StatusWarningFfcOrBalanceOvf=0
+# StatusWaitForTrigger: genicam exception - Node is not readable. : AccessException thrown in node 'StatusWaitForTrigger' while calling 'StatusWaitForTrigger.GetValue()' (file 'IntegerT.h', line 148)
+# StatusTriggerTooFast: genicam exception - Node is not readable. : AccessException thrown in node 'StatusTriggerTooFast' while calling 'StatusTriggerTooFast.GetValue()' (file 'IntegerT.h', line 148)
+# Status3V7: genicam exception - Node is not readable. : AccessException thrown in node 'Status3V7' while calling 'Status3V7.GetValue()' (file 'IntegerT.h', line 148)
+# Status3V3: genicam exception - Node is not readable. : AccessException thrown in node 'Status3V3' while calling 'Status3V3.GetValue()' (file 'IntegerT.h', line 148)
+# Status1V0: genicam exception - Node is not readable. : AccessException thrown in node 'Status1V0' while calling 'Status1V0.GetValue()' (file 'IntegerT.h', line 148)
+# Status1V8: genicam exception - Node is not readable. : AccessException thrown in node 'Status1V8' while calling 'Status1V8.GetValue()' (file 'IntegerT.h', line 148)
+# Status1V8ANA: genicam exception - Node is not readable. : AccessException thrown in node 'Status1V8ANA' while calling 'Status1V8ANA.GetValue()' (file 'IntegerT.h', line 148)
+# Status2V5: genicam exception - Node is not readable. : AccessException thrown in node 'Status2V5' while calling 'Status2V5.GetValue()' (file 'IntegerT.h', line 148)
+# StatusScrollingDirection=StatusForward
+# StatusSensorPattern: genicam exception - Node is not readable. : AccessException thrown in node 'StatusSensorPattern' while calling 'StatusSensorPattern.GetValue()' (file 'IntegerT.h', line 148)
+ColourDisableRed=0
+ColourDisableGreen=0
+ColourDisableBlue=0
+ScanDirectionMode=Forward
+# ScanDirectionExternalLine: genicam exception - Node is not readable. : AccessException thrown in node 'ScanDirectionExternalLine' while calling 'ScanDirectionExternalLine.GetIntValue()' (file 'EnumerationT.h', line 131)
+# FPNCalibrationCtrl=1
+# FPNCalibrationAbort=1
+# FFCalibrationCtrl=1
+# FFCalibrationAbort=1
+# ResetFPN=1
+# FPNValueSize=2
+# ResetFFC=1
+# FFCValueSize=2
+FFCSetSelector=User1
+# FFCSetSave=1
+# FFCSetLoad=1
+# CurrentFFCSet=User4
+# FpgaDebug16BitsRegisterAddr: genicam exception - Node is not readable. : AccessException thrown in node 'FpgaDebug16BitsRegisterAddr' while calling 'FpgaDebug16BitsRegisterAddr.GetValue()' (file 'IntegerT.h', line 148)
+# FpgaDebug16BitsVal: genicam exception - Node is not readable. : AccessException thrown in node 'FpgaDebug16BitsVal' while calling 'FpgaDebug16BitsVal.GetValue()' (file 'IntegerT.h', line 148)
+# FpgaDebug16BitsRegisterValue: genicam exception - Node is not readable. : AccessException thrown in node 'FpgaDebug16BitsRegisterValue' while calling 'FpgaDebug16BitsRegisterValue.GetValue()' (file 'IntegerT.h', line 148)
+# SensorIndexSelector: genicam exception - Node is not readable. : AccessException thrown in node 'SensorIndexSelector' while calling 'SensorIndexSelector.GetIntValue()' (file 'EnumerationT.h', line 131)
+# SensorDebug16BitsRegisterAddr: genicam exception - Node is not readable. : AccessException thrown in node 'SensorDebug16BitsRegisterAddr' while calling 'SensorDebug16BitsRegisterAddr.GetValue()' (file 'IntegerT.h', line 148)
+# SensorDebug16BitsVal: genicam exception - Node is not readable. : AccessException thrown in node 'SensorDebug16BitsVal' while calling 'SensorDebug16BitsVal.GetValue()' (file 'IntegerT.h', line 148)

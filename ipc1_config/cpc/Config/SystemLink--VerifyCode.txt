@@ -1,0 +1,47 @@
+0,OK,OK, 
+1000,OL broken,FG
+1001,Metal exposure on Lead,FX
+1002,Plating protrusion (Whisker),T1
+1003,Lead discoloration,T2
+1004,Under etching,T6
+1005,Over etching,T7
+1006,Lead open,T8
+1007,Notch,T9
+1008,Lead scratch,TB
+1009,OL contamination,TD
+1010,Foreign material adhesion on lead,TE
+1100,Punch crack,C3
+1101,Tape splicing times over spec,F7
+1102,Punch burr,FV
+1103,NG punch hole shift,TS
+1104,Punch tape / Kapton tape remain on film,XC
+1200,Die Crack,V1
+1201,Backside Chipping,V2
+1202,Resin or foreign material on Chip,V3
+1203,Internal pattern exposure,V6
+1204,Inner lead exposure,V7
+1205,Over potting area,VF
+1300,Original Foreign material adhesion on SR,A4
+1301,Under etching (SR area),FH
+1302,Over etching (SR area),FI
+1303,Foreign material under SR,FJ
+1304,Lead exposure on SR,FY
+1305,Effusing,TF
+1306,Pin hole on SR,TH
+1307,SR lack,TK
+1308,SR bleeding,TL
+1309,SR scratch,TM
+1310,Resin contamination on SR,VE
+1400,Un-punched sprocket hole / device hole,FA
+1401,Sprocket hole broken,FB
+1402,Splicing dislocation,FC
+1403,Splicing gap,FD
+1404,Burr on the sprocket hole,FK
+1500,Missing potting,V10
+1501,Foreign material on resin,VB
+1600,Original foreign material adhesion on PI,A1
+1601,Original contamination on PI,A3
+1602,Base material surface scratch,F2
+1603,Resin contamination on PI,VE1
+1604,Tape dent of ILB stage ILB,BJ
+1605,Tape bent/dent,FF

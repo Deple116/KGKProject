@@ -1,0 +1,218 @@
+[AP_35SW_CCD0]
+iIP_Area_Left=0
+iIP_Area_Right=8192
+iIP_Sub_Sampling_Rate=1
+iThresh_Leader_Ave_Margin=80
+;95
+iThresh_Leader_Var_Margin=100
+;200
+iThresh_Kapton_Ave_Margin=10
+iThresh_Kapton_Var_Margin=50
+;20
+iThresh_Sample_Ave_Margin=20
+iThresh_Sample_Var_Margin=40
+iThresh_Leader_Var_Clip=100
+iThresh_Kapton_Var_Clip=200
+iThresh_Sample_Var_Clip=200
+dThresh_Start_Leader_Hue_Ave_Margin=2.000
+dThresh_Start_Leader_Hue_Var_Margin=2.000
+dThresh_Start_Leader_Sat_Ave_Margin=20.000
+dThresh_Start_Leader_Val_Ave_Margin=20.000
+dThresh_Start_Leader_Red_Ave_Margin=10.000
+dThresh_Start_Leader_Red_Var_Margin=10.000
+; (2013/11/29) Ohba ChipMOS 2.0 -> 6.0   ---> 6.0 TOO EARLY, BEGIN OF KAPTON TAPE
+; (2013/11/29) Ohba ChipMOS 6.0 -> 8.0   ---> 8.0 TOO EARLY, BEGIN OF KAPTON TAPE
+; (2013/11/29) Ohba ChipMOS 8.0 -> 9.0   ---> 9.0 GET BETTER. MONITOR -> TOO EARLY, Go over a little bit OF begining KAPTON TAPE
+; (2013/11/29) Ohba ChipMOS 9.0 -> 9.5   ---> MONITOR. -> TOO EARLY, Go over a little bit OF begining KAPTON TAPE
+; (2013/12/02) Ohba ChipMOS 9.5 -> 10.0  ---> MONITOR.
+dThresh_Start_Kapton_Hue_Ave_Margin=10.000
+dThresh_Start_Kapton_Hue_Var_Margin=2.000
+dThresh_Start_Kapton_Sat_Ave_Margin=20.000
+dThresh_End_Kapton_Hue_Ave_Margin=2.500
+dThresh_End_Kapton_Hue_Var_Margin=100.000
+dThresh_Start_Kapton_Red_Ave_Margin=5.000
+dThresh_Start_Kapton_Red_Var_Margin=5.000
+iSaturation_Clip=64
+iThresh_Clear_Leader_Min_R=64
+iThresh_Clear_Leader_Min_G=64
+iThresh_Clear_Leader_Min_B=64
+iThresh_Clear_Leader_Min_V=128
+iRefYsLeader=67
+iRefYeLeader=83
+iRefYsKapton=67
+iRefYeKapton=83
+iKaptonSkip=67
+bStartFromKapton=0
+; (2013/11/29) Ohba ChipMOS 0 -> 1
+bHueMode=1
+bSimMode=0
+bAP_Mode=1
+iNonLeader=32
+iNonSpliceLeader=64
+iNonSample=64
+iSample=64
+dLoggingPeriod=1.000
+bMsgOut=0
+bLogOut=1
+bVerbose=0
+bSaveAllImage=0
+bReturnAlways=0
+bSaveRefImage=0
+bMakeRefMapImage=0
+[AP_48SW_CCD0]
+iIP_Area_Left=0
+iIP_Area_Right=8192
+iIP_Sub_Sampling_Rate=1
+;
+; 48mm AreaCamera 先頭Splice認識Parameter
+; iThresh_Leader_Ave_Margin
+;
+; 数字を大きくすると、Leader Tape 見え方の範囲に鈍感になる。
+; 数字を小さくすると、Leader Tape 見え方の範囲に鋭敏になる。
+;
+; Step 約5 で調整する。
+; 80～120 の範囲で調整する。
+;
+;iThresh_Leader_Ave_Margin=80
+;iThresh_Leader_Var_Margin=100
+;iThresh_Leader_Ave_Margin=110		;TEST7PH-1
+;iThresh_Leader_Ave_Margin=100		;S6CF177X04-54XN
+;iThresh_Leader_Ave_Margin=90		;S6CF177X04-54XN
+;iThresh_Leader_Ave_Margin=85		;(2012/09/10) Ohba 90で長く安定していたが48mm 2PH (S6CG22BA03-57UN)で先頭誤認。
+;iThresh_Leader_Ave_Margin=105		;(2012/11/22) Ohba 85 -> 110
+;iThresh_Leader_Ave_Margin=90		;(2013/01/23) Ohba 105 -> 90  STEMCO 90???
+;iThresh_Leader_Ave_Margin=105		;(2013/01/29) Ohba for Test
+;iThresh_Leader_Ave_Margin=110		;(2013/05/02) Ohba AVI#2
+iThresh_Leader_Ave_Margin=95		;(2013/05/24) Nemo #2 110で失敗。110->105
+iThresh_Leader_Var_Margin=200		;TEST7PH-1
+iThresh_Kapton_Ave_Margin=10
+iThresh_Kapton_Var_Margin=20
+iThresh_Sample_Ave_Margin=20
+iThresh_Sample_Var_Margin=40
+iThresh_Leader_Var_Clip=100
+iThresh_Kapton_Var_Clip=200
+iThresh_Sample_Var_Clip=200
+;dThresh_Start_Leader_Hue_Ave_Margin=2.000
+;dThresh_Start_Leader_Hue_Ave_Margin=4.000		;(2013/05/27) Ohba 2.0->4.0
+;dThresh_Start_Leader_Hue_Ave_Margin=8.000		;(2013/05/27) Ohba 4.0->8.0
+dThresh_Start_Leader_Hue_Ave_Margin=2.000		;(2013/11/13) Ohba ChipMOS 8.0->2.0
+dThresh_Start_Leader_Hue_Var_Margin=2.000
+dThresh_Start_Leader_Sat_Ave_Margin=20.000
+dThresh_Start_Leader_Val_Ave_Margin=20.000
+dThresh_Start_Leader_Red_Ave_Margin=10.000
+dThresh_Start_Leader_Red_Var_Margin=10.000
+;dThresh_Start_Kapton_Hue_Ave_Margin=2.000
+;dThresh_Start_Kapton_Hue_Ave_Margin=8.000		;(2013/05/27) Ohba 2.0->8.0
+;dThresh_Start_Kapton_Hue_Ave_Margin=4.000		;(2013/05/27) Ohba 8.0->4.0
+;dThresh_Start_Kapton_Hue_Ave_Margin=16.000		;(2013/05/27) Ohba 4.0->16.0  ->行き過ぎ。カプトンのお尻
+;dThresh_Start_Kapton_Hue_Ave_Margin=10.000		;(2013/05/27) Ohba 16.0->10.0  ->行き過ぎ。カプトンのお尻
+;dThresh_Start_Kapton_Hue_Ave_Margin=1.000		;(2013/05/27) Ohba 10.0->1.0  ->手前杉。かぷとんの始まり
+;dThresh_Start_Kapton_Hue_Ave_Margin=8.000		;(2013/05/27) Ohba 1.0->8.0  ->行き過ぎ。製品上カプトンの中間位
+;dThresh_Start_Kapton_Hue_Ave_Margin=4.000		;(2013/05/27) Ohba 8.0->4.0  ->手前杉。かぷとんの始まり
+;dThresh_Start_Kapton_Hue_Ave_Margin=6.000		;(2013/05/27) Ohba 4.0->6.0  ->手前杉。かぷとんの始まり
+;dThresh_Start_Kapton_Hue_Ave_Margin=7.000		;(2013/05/27) Ohba 6.0->7.0  ->手前杉。かぷとんの始まり
+;dThresh_Start_Kapton_Hue_Ave_Margin=7.500		;(2013/05/27) Ohba 7.0->7.5  ->手前杉。かぷとんの始まり
+;dThresh_Start_Kapton_Hue_Ave_Margin=7.7500		;(2013/05/27) Ohba 7.5->7.75  ->手前。かぷとんからSpliceまで40%のあたり。
+;dThresh_Start_Kapton_Hue_Ave_Margin=7.87500	;(2013/05/27) Ohba 7.75->7.875  ->手前杉。かぷとんの始まり
+;dThresh_Start_Kapton_Hue_Ave_Margin=7.9375		;(2013/05/27) Ohba 7.875->7.9375 ->
+;dThresh_Start_Kapton_Hue_Ave_Margin=9.0			;(2013/10/25) Ohba ChipMOS#1 7.9375 -> 9.0
+;dThresh_Start_Kapton_Hue_Ave_Margin=8.0			;(2013/11/07) Ohba ChipMOS#1 9.0 -> 8.0
+;dThresh_Start_Kapton_Hue_Ave_Margin=7.0			;(2013/11/12) Ohba ChipMOS#1 8.0 -> 7.0
+dThresh_Start_Kapton_Hue_Ave_Margin=6.0			;(2013/11/12) Ohba ChipMOS#1 7.0 -> 6.0
+dThresh_Start_Kapton_Hue_Var_Margin=2.000
+dThresh_Start_Kapton_Sat_Ave_Margin=20.000
+dThresh_End_Kapton_Hue_Ave_Margin=2.500
+dThresh_End_Kapton_Hue_Var_Margin=100.000
+dThresh_Start_Kapton_Red_Ave_Margin=5.000
+dThresh_Start_Kapton_Red_Var_Margin=5.000
+iSaturation_Clip=64
+iThresh_Clear_Leader_Min_R=64
+iThresh_Clear_Leader_Min_G=64
+iThresh_Clear_Leader_Min_B=64
+iThresh_Clear_Leader_Min_V=128
+iRefYsLeader=67
+iRefYeLeader=83
+iRefYsKapton=67
+iRefYeKapton=83
+iKaptonSkip=67
+bStartFromKapton=0
+bHueMode=1
+bSimMode=0
+bAP_Mode=1
+iNonLeader=32
+iNonSpliceLeader=64
+iNonSample=64
+iSample=64
+dLoggingPeriod=1.000
+bMsgOut=0
+bLogOut=1
+bVerbose=0
+bSaveAllImage=0
+bReturnAlways=0
+bSaveRefImage=0
+bMakeRefMapImage=0
+[AP_70SW_CCD0]
+;iIP_Area_Left=540
+;iIP_Area_Left=480
+;iIP_Area_Right=590
+iIP_Area_Left=0
+iIP_Area_Right=50
+iIP_Sub_Sampling_Rate=1
+;iThresh_Leader_Ave_Margin=10
+;iThresh_Leader_Var_Margin=10
+;iThresh_Leader_Ave_Margin=20
+;iThresh_Leader_Ave_Margin=80
+;iThresh_Leader_Ave_Margin=90
+;iThresh_Leader_Ave_Margin=95
+;iThresh_Leader_Ave_Margin=100
+;iThresh_Leader_Ave_Margin=98
+;iThresh_Leader_Ave_Margin=90
+iThresh_Leader_Ave_Margin=90		;(2012/08/29) Ohba 90で長く安定していたがS6C2BD1A02-56UNで先頭誤認。
+;iThresh_Leader_Var_Margin=120
+iThresh_Leader_Var_Margin=120
+iThresh_Kapton_Ave_Margin=10
+iThresh_Kapton_Var_Margin=20
+iThresh_Sample_Ave_Margin=20
+iThresh_Sample_Var_Margin=40
+iThresh_Leader_Var_Clip=100
+iThresh_Kapton_Var_Clip=200
+iThresh_Sample_Var_Clip=200
+dThresh_Start_Leader_Hue_Ave_Margin=2.000
+dThresh_Start_Leader_Hue_Var_Margin=2.000
+dThresh_Start_Leader_Sat_Ave_Margin=20.000
+dThresh_Start_Leader_Val_Ave_Margin=20.000
+dThresh_Start_Leader_Red_Ave_Margin=10.000
+dThresh_Start_Leader_Red_Var_Margin=10.000
+dThresh_Start_Kapton_Hue_Ave_Margin=2.000
+dThresh_Start_Kapton_Hue_Var_Margin=2.000
+dThresh_Start_Kapton_Sat_Ave_Margin=20.000
+dThresh_End_Kapton_Hue_Ave_Margin=2.500
+dThresh_End_Kapton_Hue_Var_Margin=100.000
+dThresh_Start_Kapton_Red_Ave_Margin=5.000
+dThresh_Start_Kapton_Red_Var_Margin=5.000
+iSaturation_Clip=64
+iThresh_Clear_Leader_Min_R=64
+iThresh_Clear_Leader_Min_G=64
+iThresh_Clear_Leader_Min_B=64
+iThresh_Clear_Leader_Min_V=128
+iRefYsLeader=67
+iRefYeLeader=83
+iRefYsKapton=67
+iRefYeKapton=83
+iKaptonSkip=67
+bStartFromKapton=0
+bHueMode=0
+bSimMode=0
+bAP_Mode=1
+iNonLeader=32
+iNonSpliceLeader=64
+iNonSample=64
+iSample=64
+dLoggingPeriod=1.000
+bMsgOut=0
+bLogOut=1
+bVerbose=0
+bSaveAllImage=0
+bReturnAlways=0
+bSaveRefImage=0
+bMakeRefMapImage=0
